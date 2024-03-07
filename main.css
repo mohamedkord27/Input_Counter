@@ -1,0 +1,42 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+div{
+    width: 300px;
+    margin: 30px auto;
+}
+input{
+    padding: 15px;
+    width: 100%;
+    background-color: #eee;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+input:focus{
+    outline: none;
+}
+.progress{
+    background-color: #2196f3;
+    display: block;
+    width:0;
+    height: 2px;
+    position: relative;
+    top: -2px;
+    transition: 0.5s;
+}
+.counter{
+    text-align: right;
+    display: block;
+    font-size: 12px;
+    padding: 5px;
+}
+.counter.zero{
+    color: red;
+    font-weight: bold;
+}
